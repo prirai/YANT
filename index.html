@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🔍 Search</title>
+        <meta name="description" content="The Tux minded Bookshelf">
+        <link rel="canonical" href="/newtab/"/>
+        <link rel="stylesheet" href="assets/style/normalize.css">
+        <link rel="stylesheet" href="assets/style/typebase.css">
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="assets/style/fonts.css">
+        <link rel="stylesheet" href="assets/style/prism-okadia.css">
+        <meta name="robots" content="index, follow"/>
+        <meta property="og:title" content="🔍 Search"/>
+        <meta property="og:description" content=""/>
+        <meta property="og:type" content="article"/>
+    </head>
+    <body>
+        <main >
+            
+<style>
+body {
+    background: black;
+	background-image: url('bg.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+    max-height: 90vh;
+}
+main {
+    color: white;
+	font-family: Lato;
+}
+img {
+    height: 70px;
+}
+
+.datetime {
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  padding: 5px 2px 2px 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#time {
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.buttoncontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  display: block;
+  margin: 1%;
+  border-radius: 12px;
+  width: 14%;
+  border: 2px solid transparent;
+  padding: 10px;
+  background-color: #0b2d39;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid var(--accent-col);
+}
+
+.via {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#query {
+  background-color: #000000;
+  color: white;
+  margin-top: 25vh;
+  width: 100%;
+  height: 4em;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  button {
+    width: 30%;
+  }
+}
+</style>
+
+<div class="searchpage">
+<form id="formquery" method="get" action="https://example.com">
+    <input id="query" maxlength="2048" name="q" type="text" title="Search Anything" placeholder="Search Anything" autocomplete="off" autofocus/>
+</form>
+    
+<div class="via">Search via</div>
+<div class="buttoncontainer">
+    <button id="google" form="formquery" formaction="https://www.google.com/search"><img src="assets/img/google.svg"></button>
+    <button id="bing" form="formquery" formaction="https://www.bing.com/search"><img src="assets/img/bing.svg"></button>
+    <button id="duckduckgo" form="formquery" formaction="https://duckduckgo.com"><img src="assets/img/ddg.svg"></button>
+    <button id="searx" form="formquery" formaction="https://search.disroot.org"><img src="assets/img/searx.svg"></button>
+    <button id="brave" form="formquery" formaction="https://search.brave.com/search"><img src="assets/img/brave.svg"></button>
+    <button id="you" form="formquery" formaction="https://you.com/search?q=jquery"><img src="assets/img/you.svg"></button>
+    <button id="annas" form="formquery" formaction="https://annas-archive.org/search"><img src="assets/img/annas.svg"></button>
+    <button id="wiki" form="formquery" formaction="https://en.wikipedia.org/w/index.php"><img src="assets/img/wiki.svg"></button>
+    <button id="scihub" form="formquery" formaction="https://sci-hub.st/"><img src="assets/img/scihub.png"></button>
+    <button id="scholar" form="formquery" formaction="https://scholar.google.com/scholar"><img src="assets/img/gscholar.svg"></button>
+    <button id="urban" form="formquery" formaction="https://www.urbandictionary.com/define.php"><img src="assets/img/ud.svg"></button>
+</div>
+
+<script>
+    document.getElementById("google").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("annas").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("searx").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("duckduckgo").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("you").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("brave").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("wiki").addEventListener("click", function() {
+        document.getElementById("query").name="search";
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("bing").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("scihub").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("scholar").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+    document.getElementById("urban").addEventListener("click", function() {
+        document.getElementById("formquery").submit();
+    });
+</script>
+</div>
+        </main>
+    </body>
+</html>

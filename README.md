@@ -1,2 +1,4 @@
-# YANT
-YANT - Yet Another New Tab extension for chromium browsers that tries to keep it simple and clean.
+- Download the repository to your computer and unzip it.
+- Enable 'Developer mode' in extension settings.
+- Select the 'Load Unpacked' option and select the previously unzipped folder.
+- Enable the extension and boom!

@@ -1,0 +1,12 @@
+#myNav {
+  width: 100%;
+}
+#myNav > .overlay-content > .item {
+  margin: 2% 30% 0 30%;
+}
+
+@media screen and (max-width: 1000px) {
+  #myNav > .overlay-content > .item {
+    margin: 2% 5% 0 5%;
+  }
+}

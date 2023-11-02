@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "AveriaBold";
+  src: url("../fonts/averia/Averia-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AveriaBoldItalic";
+  src: url("../fonts/averia/Averia-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "AveriaGruesa";
+  src: url("../fonts/averia/Averia-Gruesa.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AveriaItalic";
+  src: url("../fonts/averia/Averia-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "AveriaLight";
+  src: url("../fonts/averia/Averia-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AveriaLightItalic";
+  src: url("../fonts/averia/Averia-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AveriaRegular";
+  src: url("../fonts/averia/Averia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gabriela";
+  src: url("../fonts/Gabriela/Gabriela-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Hack";
+  src: url("../fonts/Hack/Hack-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HackB";
+  src: url("../fonts/Hack/Hack-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HackI";
+  src: url("../fonts/Hack/Hack-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HackBI";
+  src: url("../fonts/Hack/Hack-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lilex";
+  src: url("../fonts/Lilex/Lilex-VF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Caladea";
+  src: url("../fonts/caladea/Caladea-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCodeRetina";
+  src: url("../fonts/firacode/FiraCode-Retina.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCodeR";
+  src: url("../fonts/firacode/FiraCode-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCodeB";
+  src: url("../fonts/firacode/FiraCode-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCodeL";
+  src: url("../fonts/firacode/FiraCode-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCodeM";
+  src: url("../fonts/firacode/FiraCode-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCodeSB";
+  src: url("../fonts/firacode/FiraCode-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FiraCode";
+  src: url("../fonts/firacode/FiraCode-VF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "VictorMonoI";
+  src: url("../fonts/VictorMono-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "EquityText";
+  src: url("../fonts/equity_text.woff2") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/source-serif/SourceSerifPro-ExtraLight.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/source-serif/SourceSerifPro-ExtraLightIt.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/source-serif/SourceSerifPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/source-serif/SourceSerifPro-It.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/source-serif/SourceSerifPro-Semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/source-serif/SourceSerifPro-SemiboldIt.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/source-serif/SourceSerifPro-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/source-serif/SourceSerifPro-BoldIt.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/source-serif/SourceSerifPro-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/source-serif/SourceSerifPro-BlackIt.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/source-serif/SourceSerifPro-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Source Serif Pro";
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/source-serif/SourceSerifPro-LightIt.otf") format("opentype");
+}
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("../fonts/ibmplex-mono.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

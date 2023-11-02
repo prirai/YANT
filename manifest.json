@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "YANT",
+  "version": "1.0",
+  "description": "Clean and simple newtab experience",
+  "author": "prirai",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "https://en.wikipedia.org/"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  }
+}

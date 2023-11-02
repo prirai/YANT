@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="/tmp/ink_ext_XXXXXX.svgJRZC51"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1293"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.25"
+     inkscape:cx="30.0"
+     inkscape:cy="30.0"
+     inkscape:window-width="1618"
+     inkscape:window-height="991"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1416" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1288">
+    <linearGradient
+       id="xlxyd"
+       x1="67.7649"
+       y1="4.2352901"
+       x2="67.7649"
+       y2="139.765"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.09529518,0,0,0.09529518,1.5734749,1.1576344)">
+      <stop
+         offset="0.0625"
+         stop-color="#007AFF"
+         id="stop18" />
+      <stop
+         offset="0.885417"
+         stop-color="#8D41E5"
+         id="stop20" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       fill="url(#xlxyd)"
+       d="M 9,8 C 12.032693,7.540277 14.375049,4.9564339 14.488736,1.8008675 14.469391,1.6810528 14.376288,1.5846799 14.258693,1.5612372 h -1.416848 c -0.170579,0.040373 -0.299894,0.1953514 -0.299894,0.3789804 v -0.052093 c -0.166767,2.3611428 -2.126455,4.2313012 -4.5114747,4.2313012 -2.3876017,0 -4.3473281,-1.8727695 -4.511493,-4.236511 C 3.4957121,1.7253317 3.3780702,1.5977029 3.2255408,1.5612372 h -1.44265 C 1.6626712,1.5950985 1.5747681,1.7044945 1.5734749,1.8360304 1.7027438,4.9772749 4.0386374,7.5428785 7.0609622,8 v 6.156183 c 0.03361,0.1823 0.1913147,0.320383 0.3813428,0.320383 h 1.1634207 c 0.2132993,0 0.3878133,-0.17582 0.3878133,-0.39071"
+       id="path6"
+       style="fill:url(#xlxyd);stroke-width:0.0952954"
+       inkscape:export-filename="younew.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#241f1c;fill-opacity:0;stroke:#000000;stroke-width:0.0348999;stroke-opacity:0"
+       id="rect385"
+       width="14.24429"
+       height="14.24429"
+       x="0.90895879"
+       y="0.89675641" />
+  </g>
+</svg>
