@@ -5,4 +5,4 @@
 
 ## Screenshots
 
-![](.\Screenshot-newtab.png)
+![](./Screenshot-newtab.png)
